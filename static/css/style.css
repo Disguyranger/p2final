@@ -5,6 +5,9 @@
 body {
   background: url(static\css\background.png);
 }
-.container {
+.containerform {
     opacity: 0.5;
+}
+.blackbkgrd {
+  background-color: black
 }

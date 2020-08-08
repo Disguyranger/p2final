@@ -199,7 +199,8 @@ def send():
 
     return render_template("form.html")
 
-#@app.route('')
-
+@app.route('/julia')
+def julia():
+    return render_template("julia.html")
 if __name__ == '__main__':
     app.run(debug=True)
