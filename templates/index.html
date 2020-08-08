@@ -11,7 +11,7 @@
     <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
   </head>
   <body>
-    <div style="background-image: url({{url_for('static', filename='images/donut.jpg')}})">
+    <div style="background-image: url(https://photos.zillowstatic.com/uncropped_scaled_within_1536_1152/ISvg86tkwyhsa81000000000.webp)">
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="/home">Navbar</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -25,23 +25,16 @@
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                 <a class="dropdown-item" href="/form">Patrick's Home Listing</a>
-                <a class="dropdown-item" href="/julia">Julia's Choropleth</a>
-                
+                <a class="dropdown-item" href="/julia">Julia</a> 
+                <a class="dropdown-item" href="/adit">Adit's Heat</a>
               </div>
             </li>
           </ul>
         </div>
       </nav>
-
       <div class='container'>
         <div class='row'>
           <div class='col-md-12'>
-          <!-- Carousel-->
-
-          <!-- NOTE 
-            We need to amend the CSS to allow for the carousel to span the entire width
-            This may need to be amended in the CSS -->
-
           <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
               <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -65,8 +58,8 @@
               </div>
               <div class="carousel-item">
                 <div class="carousel-caption d-none d-md-block">
-                  <h5 style="color:rgb(49, 7, 7)"><a class='text-decoration-none' href="/api/data/nova_listings"><b>View the Database!</b></a></h5>
-                  <p style="color:rgb(49, 7, 7)"><a><b>See our world of code!</b></a></p>
+                  <h5 style="color:rgb(49, 7, 7)"><a class='text-decoration-none' href="/api/data/nova_listings"><b>View the Database! (Don't)</b></a></h5>
+                  <p style="color:rgb(49, 7, 7)"><a><b>See our world of code! (I wouldn't)</b></a></p>
                 </div>
                 <img class="d-block w-100" src="https://photos.zillowstatic.com/uncropped_scaled_within_1536_1152/ISjj26n5klc7od0000000000.webp" alt="Third slide">
               </div>
@@ -82,9 +75,6 @@
           </div>
         </div>
       </div>
-        
-
-      <!-- Placeholder for data viz -->
       <div class=row>
         <div class='col-md-6'>
           <div id='avg_selling_prices_group'></div>
@@ -93,8 +83,6 @@
           <div id='avg_price_bar'></div>
         </div>
       </div>
-
-      <!-- Some structured content -->
       <div class='row'>
         <div class='col-md-12'>
           <div class="card-deck">
@@ -103,38 +91,33 @@
               <div class="card-body">
                 <h5 class="card-title">Meet the Team</h5>
                 <p class="card-text">This is a content title. It does things that make it seem important enough to read. Don't read the rest.</p>
-                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
               </div>
             </div>
             <div class="card">
               <a href="/form"><img src="static\images\pgif.gif" class="card-img-top" alt="..." style="background-color: black;"></a>
               <div class="card-body">
                 <h5 class="card-title">See The Code!</h5>
-                <p class="card-text">I told you to stop reading. What comes next may astound you...</p>
-                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                <p class="card-text">I told you to stop reading. There's words that say things that I don't mean...</p>
               </div>
             </div>
             <div class="card">
-              <img src="https://pmcvariety.files.wordpress.com/2020/05/shutterstock_editorial_10447685gh.jpg?w=681&h=383&crop=1" class="card-img-top" alt="...">
+              <a href="/adit"><img src="static\images\adit.PNG" style="height:175.75; width:348" class="card-img-top" alt="..."></a>
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                <h5 class="card-title">See the Heat!</h5>
+                <p class="card-text">Not the Miami Heat!</p>
               </div>
             </div>
           </div>
         </div>
       </div>
-
-      <!-- Footer -->
       <div class='row'>
         <div class='col-md-12'><p></p>
           <div class="card">
-            <h5 class="card-header">Sample Footer</h5>
+            <h5 class="card-header">I think we're done</h5>
             <div class="card-body">
-              <h5 class="card-title">Special title treatment</h5>
-              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <h5 class="card-title">I wouldn't dig...</h5>
+              <p class="card-text">It's a solid end, because now it's over.</p>
+              <a href="https://youtu.be/dQw4w9WgXcQ" class="btn btn-primary">Go somewhere more fun</a>
             </div>
           </div>
         </div>

@@ -192,11 +192,9 @@ def send():
             'PHONE': [phone]
         })
         home_df.to_sql('nova_listings', con=conn, if_exists='append', index=False)
-
         #return redirect("/", code=302)
-
     conn.close()
-
+    
     return render_template("form.html")
 
 @app.route('/julia')

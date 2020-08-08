@@ -3,5 +3,5 @@
     min-width: 100%;
   }
 body {
-  background: url(static\css\background.png);
+  background-image: url(static\css\background.png);
 }
