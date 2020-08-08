@@ -202,5 +202,14 @@ def send():
 @app.route('/julia')
 def julia():
     return render_template("julia.html")
+
+@app.route('/team')
+def team():
+    return render_template('team.html')
+
+@app.route('/adit')
+def adit():
+    return render_template('adit.html')
+
 if __name__ == '__main__':
     app.run(debug=True)
