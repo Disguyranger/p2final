@@ -2,9 +2,9 @@
     max-height: 400px;
     min-width: 100%;
   }
-  body {
-    background: url(static\css\background.png) blue;
-  }
-  .container {
+body {
+  background: url(static\css\background.png);
+}
+.container {
     opacity: 0.5;
-  }
+}
